@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Age-->
+    <script src="ageTimer.js" defer></script>
+    <!--IP-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="ipDetect.js"></script>
+    <!--Facts-->
+    <script src="randomFacts.js"></script>
+</head>
+
+<footer>
+    <div class="upperBar">
+        <h1>JDV</h1>
+    </div>
+</footer>
+
+<body>
+    <div class="box">
+        <h1>Age</h1>
+        <h2 id="ageBox"></h2>
+    </div>
+
+    <div class="box">
+        <h1>Your current IP-Adress</h1>
+        <p id="ip"></p>
+    </div>
+
+    <div class="box">
+        <h1>Randoom Fact:</h1>
+        <p id="facts"></p>
+    </div>
+
+    <div class="birthday">
+        
+    </div>
+
+    <script>
+        if(new Date().getUTCDate() == 10 && new Date().getUTCMonth() == 11){
+            var elements = document.getElementsByClassName("birthday");
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.backgroundImage = "url(https://i.redd.it/4irnhk27iv171.gif)";
+            }
+    }
+    </script>
+</body>
+</html>
+
+

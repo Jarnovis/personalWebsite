@@ -1,0 +1,33 @@
+footer{
+    background-color: aqua;
+    height: 50px;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+}
+.upperBar{
+    height: 30px;
+    width: max-content;
+    background-color: aqua;
+    
+}
+
+.box{
+    width: 40%;
+    padding: 10px;
+    margin: 8vh auto 0;
+    height: 150;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.birthday{
+    background-image: none;
+    position:fixed;
+    width:514px;
+    height:354px;
+    bottom:0px;
+    right: 0px;
+}
